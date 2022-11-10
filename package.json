@@ -1,0 +1,22 @@
+{
+  "name": "Watch_a_fluke",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms and synchronized watch parties.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Two_Wheeler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.4.0",
+    "peer": "^0.5.3",
+    "peerjs": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
